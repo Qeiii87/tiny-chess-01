@@ -95,7 +95,7 @@ def ev():
   if w<0:r=7-r
   d=abs(f-3.5)+abs(r-3.5)
   if a==1:v+=r*4+int('00366300'[f])
-  else:v+=(7-d)*[0,0,4,3,0,2,-3][a]
+  else:v+=(7-d)*[0,0,4,3,0,2,0][a]
   s+=v if w>0 else -v
  return s*S
 def sr(d,a,b,pl):
